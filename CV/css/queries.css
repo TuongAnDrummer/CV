@@ -1,0 +1,129 @@
+/* Big tablet to 1200px; */
+@media only screen and (max-width:1200px) {}
+
+/* Small tablet to big tablet from 768x to 1023px */
+@media only screen and (max-width:1023px) {
+
+    .Heading .box{
+        width: 35%;
+        height: 100%;
+        background-color: rgb(202, 194, 194);
+        float: left;
+    }
+
+    .content{
+        width: 65%;
+        height: 100%;
+        float: right;
+        padding: 30px 30px;
+        text-align: justify;
+    }
+}
+
+/* Small phones to small tablets */
+@media only screen and (max-width: 767px) {
+    .Heading .box{
+        width: 35%;
+        height: 100%;
+        background-color: rgb(202, 194, 194);
+        float: left;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    #Name{
+        text-align: center;
+    }
+
+    .Heading .box{
+        width: 100%;
+        height: 60%;
+        background-color: rgb(202, 194, 194);
+        position: static;
+    }
+
+    #avatar{
+        text-align: center;
+        margin: 25px;
+    }
+
+    .content{
+        width: 100%;
+        height: 100%;
+        margin-top: 1px;
+        padding: 0 10%;
+        text-align: justify;
+        float: left;
+    }  
+    
+    #box1{
+        width: 50%;
+        float: left;
+        padding-left: 30px;
+    }
+    
+    #box2{
+        width: 50%;
+        float: right;
+        padding-left: 50px;
+    }
+    
+    .Skill-Highlights,
+    .Experience{
+        padding: 50px 0;
+    }
+    
+    .Education,
+    .Certifications{
+        padding: 15px 0;
+    }
+    
+    #Experience-content{
+        padding-left: 30px;
+    }
+}
+
+/* Small phones from 0 to 480px; */
+@media only screen and (max-width: 480px) {
+    #Name{
+        text-align: center;
+    }
+
+    .Heading .box{
+        width: 100%;
+        height: 60%;
+        background-color: rgb(202, 194, 194);
+        position: static;
+    }
+
+    #avatar{
+        text-align: center;
+        margin: 25px;
+    }
+
+    .content{
+        width: 100%;
+        height: 100%;
+        margin-top: 1px;
+        padding: 0 10%;
+        text-align: justify;
+        float: left;
+    }  
+    .Skill-Highlights,
+    .Experience{
+        padding: 50px 0;
+    }
+    
+    .Experience{
+        margin-top: 50px;
+    }
+
+    .Education,
+    .Certifications{
+        padding: 15px 0;
+    }
+    
+    #Experience-content{
+        padding-left: 30px;
+    }
+}
