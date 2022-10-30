@@ -34,7 +34,6 @@ html{
     background-color: orange;
     padding: 20px;
     margin: 0 25%;
-    animation: appear .1s linear;
 }
 
 .btn-download:hover
@@ -80,7 +79,7 @@ ul{
 
 h3{
     color: black;
-    font-size: 23px;
+    font-size: 20px;
     border-bottom: 1px solid black;
     margin: 10px 0;
 }
@@ -164,8 +163,5 @@ h3{
 
 }
 .Certifications{
-    animation: appear 1.5s linear;
-}
-p,li{
     animation: appear 1.5s linear;
 }
